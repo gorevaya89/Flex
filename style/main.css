@@ -205,7 +205,10 @@
     display: flex;
 }
 
-
+.hover-button {
+    border: none;
+    background-color: #FBFBFB;
+}
 
 .card::before {
     content: "";
@@ -235,7 +238,7 @@
     text-align: left;
     background-color: #46A358;
     color: #FFFFFF;
-   
+
     z-index: 2;
     display: flex;
     justify-content: center;
