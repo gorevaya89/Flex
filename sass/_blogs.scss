@@ -54,15 +54,21 @@
 }
 
 .image-button {
-    width: 140px;
     color: #ffff;
     background-color: #46A358;
-    border: 15px solid #46A358;
+    border: 1px solid #46A358;
     border-radius: 4px;
     text-transform: uppercase;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+}
+
+.follow {
+    width: 10px;
+    height: 10px;
 }
 
 .blog-about {

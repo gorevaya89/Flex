@@ -23,6 +23,14 @@
     line-height: 40px;
     display: block;
     text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+
+    &:hover {
+        color: #46A358;
+        font-weight: 800;
+    }
 }
 
 .categories-title {
@@ -39,9 +47,6 @@
     margin-top: 7px;
 }
 
-.category:hover {
-    color: #46A358;
-}
 
 .banner-image {
     margin-top: 100px;
@@ -88,20 +93,20 @@
 .right-menu {
     display: flex;
     gap: 8px;
-    vertical-align: top;
+    vertical-align: baseline;
 }
 
 .menu-text {
-
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
     color: #3D3D3D;
 }
 
-.menu-text img {
-    vertical-align: middle;
-}
+ .right-menu-icons {
+    display: flex;
+    vertical-align: top;
+ }
 
 .cards-im {
 
@@ -186,6 +191,12 @@
     color: #FBFBFB;
 }
 
+.pagination-link-follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-hover {
     display: flex;
     gap: 26px;
@@ -244,3 +255,4 @@
     justify-content: center;
     align-items: center;
 }
+

@@ -1,0 +1,72 @@
+.body {
+    font-family: Cera Pro, sans-serif;
+}
+
+.registration-form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: #f6efef;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.registration-form-tittle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    .registration-tittle {
+        font-family: Cera Pro, sans-serif;
+        font-weight: 600;
+        color: #46A358;
+        line-height: 20px;
+        font-size: 26px;
+    }
+}
+
+.registration-form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+
+    .registration-input {
+        border: 2px solid #46A358;
+        border-radius: 10px;
+        padding: 10px;
+        width: 100%;
+
+        &[placeholder] {
+            font-size: 16px;
+        }
+    }
+
+}
+
+
+.registration-form-action {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .registration-button {
+        padding: 10px;
+        border: 1px solid #46A358;
+        background-color: #46A358;
+        border-radius: 15px;
+        color: #fff;
+        font-family: Cera Pro, sans-serif;
+        line-height: 16px;
+        font-size: 20px;
+
+        &.registration-button-right {
+            margin-left: auto;
+        }
+    }
+}

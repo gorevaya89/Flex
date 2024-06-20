@@ -105,6 +105,14 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 16px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+    &:hover {
+        font-size: 22px;
+        font-weight: 900;
+    }
 }
 
 .background {
@@ -175,7 +183,6 @@
 .media-links {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 33px;
     gap: 10px;
 }
@@ -183,9 +190,12 @@
 .media-lincs-icon {
     border-radius: 4px;
     border: 1px solid rgba(70, 163, 88, 0.2);
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7px 11px;
 }
 
 .payment {
