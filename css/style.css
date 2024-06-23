@@ -903,4 +903,47 @@ body {
   margin-left: auto;
 }
 
+.preloader-wrapper {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preloader {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 8px solid #fff;
+  border-top: 8px solid rgb(244, 102, 102);
+  border-bottom: 8px solid rgb(236, 244, 151);
+  animation-name: loading;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+  animation-fill-mode: both;
+}
+.preloader:hover {
+  animation-play-state: running;
+}
+
+.preloader-button {
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
